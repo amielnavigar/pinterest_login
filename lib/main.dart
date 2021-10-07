@@ -21,9 +21,9 @@ class _State extends State<MyApp> {
   TextEditingController nameController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
 
-  String title;
+  late String title;
   String text = "No recent log in attempt";
-  String title2;
+  late String title2;
 
   void _setText() {
     setState(() {

@@ -33,13 +33,7 @@ class _State extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Image.asset(
-          "assets/gg.png",
-          width: 60.0,
-        ),
-      ),
+
       body: Padding(
         padding: EdgeInsets.all(10),
         child: Column(
